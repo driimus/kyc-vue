@@ -21,7 +21,7 @@
               absolute
               bottom
               class="clickable"
-              style="left: 40%; right: 40%"
+              style="left: 40%; right: 40%; z-index: auto;"
               @click="show = !show"
             >
               <v-icon class="clickable">
@@ -29,7 +29,7 @@
               </v-icon>
             </v-btn>
           </template>
-          <a :to="url">
+          <a :href="url">
             <v-icon
               :href="url"
               class="clickable pt-1 pl-6 pr-6 mt-4 ml-4 mr-4"
@@ -109,7 +109,7 @@ export default {
       show: false,
       contacts: 'memory',
       url:
-        'tg://resolve?domain=telegrampassport&bot_id=901198298&scope=%7B%22v%22%3A%201%2C%20%22d%22%3A%20%5B%22pd%22%2C%20%22ad%22%2C%20%22em%22%2C%20%7B%22_%22%3A%20%5B%22passport%22%2C%20%22driver_license%22%2C%20%22identity_card%22%5D%7D%2C%20%7B%22_%22%3A%20%5B%22utility_bill%22%2C%20%22bank_statement%22%2C%20%22rental_agreement%22%5D%7D%5D%7D&public_key=-----BEGIN%20PUBLIC%20KEY-----%0AMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxFgESPAnVHvJCtxUnDEp%0A5KEqFJYstd08Wu0rNxXok1MsS6NUgxCtiPAqb%2By8Bt4qpGJmFEv%2Fo%2FZiTXILeD4a%0A%2BJJR1I2uYnZwXMAQ9weLhbwcjIJECciVINUEegg%2FHEsK9DBvHkrUZA2%2FMGvrU7sP%0A8oLuymOaUG5At2rTnhHuukINQO90dYhzHybIE6nsj3eDcpkxG5ExTUw%2F2BwITucT%0AFsxPbjEf%2Bw2DH%2F%2FEFXK9YMXJ7MLOPd%2BJN01LlGqqknVPPyE7CrrreX1Cn7Y2slOK%0AyT9iwY%2FZWsJCR74l8CsEzmeVFQp2%2FLr4XLocY6f0fQ18843bvM089OQKmUILhGTb%0ASwIDAQAB%0A-----END%20PUBLIC%20KEY-----%0A&nonce=0b462081738dee13&callback_url=tg%3A//resolve%3Fdomain%3Dkycdemo_bot&payload=nonce',
+        'tg://resolve?domain=telegrampassport&bot_id=354763358&scope=%7B%22v%22%3A%201%2C%20%22d%22%3A%20%5B%22pd%22%2C%20%22ad%22%2C%20%22em%22%2C%20%7B%22_%22%3A%20%5B%22passport%22%2C%20%22driver_license%22%2C%20%22identity_card%22%5D%7D%2C%20%7B%22_%22%3A%20%5B%22utility_bill%22%2C%20%22bank_statement%22%2C%20%22rental_agreement%22%5D%7D%5D%7D&public_key=-----BEGIN%20PUBLIC%20KEY-----%0AMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw%2BbF4EBSRA1Thd7sVpjJ%0AXZhw5%2BgdkmZUwJlDpQByh7qmgkmNqmuyeWqwRjYZzZ3db7StHksEttc8dc2wxpBv%0AubP5bOlzfxyx%2BMzQ%2FCTvqgP8qWXIGTvxu%2FvqpG2lWEtKpt6878W8lSvpXtVSlwmH%0A4PvANKPWgdksUOTST%2BDNYazqwcYNvw6D19FzgaFMMRul17ZU%2Fps2PNG%2BnHi5WdPj%0A2lNwP13JyUfA9UTEpgf%2FPfvcJEENoWPBuzcjQe8qIH6ZUewrfMHzuvOWGVobtMOO%0A%2FyeCReInA1d7X%2BAyOEcW9OE3DM0tz3N9xiKxzLw3Gq8X1k6NlDQYWd9nzYxFIriR%0AQwIDAQAB%0A-----END%20PUBLIC%20KEY-----%0A&nonce=3a9eebc8baa01923&callback_url=tg%3A//resolve%3Fdomain%3Dtelexaibot&payload=nonce',
       about: 'https://telegram.org/blog/passport'
     }
   }

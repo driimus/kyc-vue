@@ -5,7 +5,7 @@
         <nuxt />
       </v-container>
     </v-content>
-    <v-footer :fixed="fixed" app>
+    <v-footer app>
       <v-spacer></v-spacer>
       <a :href="tc">
         <span> Terms and Conditions </span>
